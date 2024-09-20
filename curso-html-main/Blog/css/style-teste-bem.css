@@ -1,0 +1,38 @@
+/*BEM*/
+
+.cabecalho {
+    /*cor de fundo
+    borda embaixo*/
+}
+
+.cabecalho__lista {
+    /*tirar a bolinha
+    alterar a cor
+    colocar lado a lado*/
+}
+
+.cabecalho__imagem {
+    /*tamanho padrao*/
+}
+
+.cabecalho__lista--central {
+    /*alinhamento central*/
+}
+
+.sobreMim {
+
+}
+
+.sobreMim__titulo {
+
+}
+
+.sobreMim__paragrafo {
+
+}
+
+.sobreMim__paragrafo--corRosa {
+
+}
+
+/*OSS*/
