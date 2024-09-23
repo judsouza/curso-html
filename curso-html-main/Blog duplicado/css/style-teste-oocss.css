@@ -1,0 +1,36 @@
+.margem {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens na horizontal */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 10px;
+}
+
+/* Estilo do item do menu */
+.menu li {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Remove a sublinha dos links e define o estilo */
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Ícone da home */
+.menu-icon {
+    width: 70px; /* Define o tamanho do ícone */
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre o ícone e os links */
+}
+
