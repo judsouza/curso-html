@@ -1,0 +1,78 @@
+.fonte {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa { /*classe estrutual */
+
+    border: 2px solid black;
+    background-color: blueviolet;
+    width: 20%;
+    height: 40vh;
+    margin: 10px;
+    float: left;
+    padding: 20px
+
+}
+
+.caixa-roxo { /*modificador*/
+
+    border: 2px solid rgb(242, 95, 188);
+    background-color: rgb(171, 7, 1083);
+}
+
+.caixa-violeta { /*modificador*/
+
+    border: 2px solid rgb(252, 173, 173);
+    background-color: violet
+}
+
+.caixa-azul { /*modificador*/
+
+    border: 2px solid rgb(149, 201, 240);
+    background-color: blue
+}
+
+.secoes {
+    border-bottom: 2px dashed palevioletred;
+    min-height: 60vh;
+}
+
+.campo {
+    padding: 5px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    min-width: 200px;
+    margin-top: 1%;
+
+}
+
+.botao { 
+    padding: 9px;
+    border: 3px solid rgb(134, 8, 118);
+    background-color:rgb(198, 95, 242);
+    min-width: 110px;
+    border-radius: 8px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.formulario {
+    margin-left: 30%
+}
+
+.imagem-formulario {
+    margin-left: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif; /*alterar texto */
+    font-size: 150%;
+}
+
+.paragrafo {
+    font-style: oblique;
+    font-style: italic;
+    font-size: 100%;
+}
