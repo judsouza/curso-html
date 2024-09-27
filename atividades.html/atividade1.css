@@ -76,3 +76,104 @@
     font-style: italic;
     font-size: 100%;
 }
+
+.caixa-dois { /*classe estrutual */
+
+    border: 2px solid black;
+    background-color: rgb(210, 175, 242);
+    width: 20%;
+    height: 20vh;
+    margin: 10px;
+    padding: 20px
+
+}
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding: 30px;
+
+}
+
+.menu li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #853382;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    background-color:rgb(220, 189, 249)
+}
+
+.menu-icon {
+    width: 100px; 
+    height: auto;
+}
+
+.menu-composto {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.mercado {
+    font-family: Arial, Helvetica, sans-serif; /*alterar texto */
+    font-size: %;
+}
+
+.produtos { /*classe estrutual */
+
+    border: 1px solid black;
+    background-color: rgb(227, 195, 252);
+    width: 40%;
+    min-height: 40vh;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.mercado {
+    display: flex;
+    flex-direction: row;
+}
+
+.botao-mercado { 
+    padding: 9px;
+    border: 3px solid rgb(134, 8, 118);
+    background-color:rgb(232, 201, 245);
+    min-width: 10px;
+    border-radius: 8px;
+    margin-left: 4%;
+    margin-top: 2%;
+
+}
+
+.produtos img {
+    width: 250px;
+    height: 200px;
+}
+
+.menu-mercado {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fonte {
+    font-family: Arial, Helvetica, sans-serif;
+}
