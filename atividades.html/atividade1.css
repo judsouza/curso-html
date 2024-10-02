@@ -7,10 +7,10 @@
     border: 2px solid black;
     background-color: blueviolet;
     width: 20%;
-    height: 40vh;
+    min-height: 40vh;
     margin: 10px;
     float: left;
-    padding: 20px
+    padding: 20px;
 
 }
 
@@ -34,7 +34,7 @@
 
 .secoes {
     border-bottom: 2px dashed palevioletred;
-    min-height: 60vh;
+    min-height: 70vh;
 }
 
 .campo {
@@ -69,6 +69,7 @@
 .titulo {
     font-family: Arial, Helvetica, sans-serif; /*alterar texto */
     font-size: 150%;
+    
 }
 
 .paragrafo {
@@ -84,7 +85,8 @@
     width: 20%;
     height: 20vh;
     margin: 10px;
-    padding: 20px
+    padding: 10px;
+    min-height: 50vh;
 
 }
 
@@ -92,6 +94,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    min-height: 40vh;
 }
 
 .menu {
@@ -132,7 +135,7 @@
 
 .mercado {
     font-family: Arial, Helvetica, sans-serif; /*alterar texto */
-    font-size: %;
+    font-size: 20px;
 }
 
 .produtos { /*classe estrutual */
@@ -176,4 +179,116 @@
 
 .fonte {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa-estatica {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: static; 
+    background-color: brown;
+}
+
+.caixa-relativa {
+    width: 200px;
+    height: 200px;
+    border: 1px solid purple;
+    position: relativr; 
+    top: 20px;
+    bottom: 50px;
+    left: 100px;
+    right: 70px;
+    background-color: blueviolet;
+}
+
+.caixa-fixa {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    z-index: -1;
+}
+
+.caixa-grudada {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: sticky; 
+    top: 0;
+    background-color: beige;
+}
+
+.caixa-absoluta {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: absolute; 
+    bottom: 50px;
+    background-color: cadetblue;
+    z-index: -1;
+}
+
+.menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding: 30px;
+    background-color: aliceblue
+}
+
+.menu1 li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: #853382;
+    font-size: 18px;
+}
+
+.menu1 a:hover {
+    background-color:rgb(220, 189, 249)
+}
+
+.fixar {
+    position: sticky;
+    top: 0;
+}
+
+.contato {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.contato img {
+
+}
+
+.whats {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.redes-sociais {
+    position:fixed;
+    bottom: 0;
+}
+
+.redes-sociaish5 {
+
+}
+
+.redes-sociais a {
+
+}
+
+.redes-sociais li {
+    list-style: none;
 }
