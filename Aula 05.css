@@ -1,0 +1,73 @@
+[dt-info] {
+    background-color: hotpink;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, .container {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    justify-content: space-around;
+}
+
+.container {
+    justify-content: center;
+}
+
+input:hover {
+    border: 2px solid hotpink;
+}
+
+.campo-checkbox:checked {
+    box-shadow: 0 0 0 1px;
+}
+
+.mostrar-info:hover + .info-oculta {
+    display: block;
+}
+
+.info-oculta {
+    display: none;
+}
+
+.menu-oculto {
+    display: none;
+}
+
+.menu-hover:hover .menu-oculto {
+    display: block;
+}
+
+button {
+    background-color: hotpink;
+    border-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+button:hover + .frase-oculta {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+
+.frase-oculta {
+    display: none;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+
+.input-tooltip:hover .tooltip {
+    display: block;
+}
