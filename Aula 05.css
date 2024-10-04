@@ -4,6 +4,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+ 
 }
 
 ul, .container {
@@ -65,9 +67,15 @@ button:hover + .frase-oculta {
 .tooltip {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: beige;
 }
 
 .input-tooltip:hover .tooltip {
     display: block;
+}
+
+@media (max-width: 450px) {
+    body {
+        background-color: hotpink;
+    }
 }
