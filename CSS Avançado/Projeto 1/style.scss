@@ -1,0 +1,45 @@
+$cor-secundaria: #d07c7c;
+$cor-primaria: #a16161;
+
+@mixin display-flex($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+nav {
+
+    @include display-flex(row, space-around);
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    ul {
+        @include display-flex(row, space-around);
+    }
+
+    li {
+        list-style: none;
+        padding: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $cor-secundaria;
+    }
+
+}
+
+main {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/13446367-chip-eletronico-de-tecnologia-digital-conceito-de-fundo-azul-rosa-hardware-eletrico-de-computador-microprocessador-de-memoria-ram-cpu-futuro-cibernetico-futurista-tecnologia-de-rede-de-big-data-abstrata-ilustracaoial-vetor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    text-align: center;
+    align-items: center;
+    @include display-flex(column, center);
+
+
+}

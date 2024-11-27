@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  nav img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #d07c7c;
+  }
+  
+  main {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-cibernetico-de-tecnologia-gradiente_23-2149118848.jpg?t=st=1732662965~exp=1732666565~hmac=ca32b4d9e4828b56f6a096ea6c9ff989b893bfa7b3c4d8ce18dce2a35c8be3d9&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
