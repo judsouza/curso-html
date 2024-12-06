@@ -1,38 +1,93 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  nav img {
-    width: 70px;
-    height: 70px;
-  }
-  
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  nav li {
-    list-style: none;
-    padding: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #d07c7c;
-  }
-  
-  main {
-    background-image: url("https://img.freepik.com/vetores-gratis/fundo-cibernetico-de-tecnologia-gradiente_23-2149118848.jpg?t=st=1732662965~exp=1732666565~hmac=ca32b4d9e4828b56f6a096ea6c9ff989b893bfa7b3c4d8ce18dce2a35c8be3d9&w=1380");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 900px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav img {
+  width: 70px;
+  height: 70px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav li {
+  list-style: none;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #d07c7c;
+}
+
+main {
+  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/13446367-chip-eletronico-de-tecnologia-digital-conceito-de-fundo-azul-rosa-hardware-eletrico-de-computador-microprocessador-de-memoria-ram-cpu-futuro-cibernetico-futurista-tecnologia-de-rede-de-big-data-abstrata-ilustracaoial-vetor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 900px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #a16161;
+  height: 100px;
+}
+footer .col-1 {
+  width: 8.3333333333%;
+}
+footer .col-2 {
+  width: 16.6666666667%;
+}
+footer .col-3 {
+  width: 25%;
+}
+footer .col-4 {
+  width: 33.3333333333%;
+}
+footer .col-5 {
+  width: 41.6666666667%;
+}
+footer .col-6 {
+  width: 50%;
+}
+footer .col-7 {
+  width: 58.3333333333%;
+}
+footer .col-8 {
+  width: 66.6666666667%;
+}
+footer .col-9 {
+  width: 75%;
+}
+footer .col-10 {
+  width: 83.3333333333%;
+}
+footer .col-11 {
+  width: 91.6666666667%;
+}
+footer .col-12 {
+  width: 100%;
+}
+footer div {
+  align-items: center;
+  text-align: center;
+}
+footer img {
+  height: 70px;
+  width: 70px;
+}
+footer ul {
+  list-style: none;
+}
+footer h3 {
+  color: pink;
+}

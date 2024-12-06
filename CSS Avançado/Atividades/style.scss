@@ -17,3 +17,37 @@
     }
 
 }
+
+.loops {
+    $tamanoTela: 12;
+
+    @for $i from 1 through $tamanoTela {
+        .col-#{$i} {
+            width: calc(100% / $tamanoTela) * $i;
+        }
+    }
+
+    div {
+        height: 50px;
+        background-color: dimgray;
+        border: 2px solid white;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+    }
+}
+
+.animacoes {
+    button {
+        background-color: aqua;
+        transition: background-color 1s;
+    }
+
+    button:hover {
+        background-color: deeppink;
+        transform: scale(1.5);
+    }
+}

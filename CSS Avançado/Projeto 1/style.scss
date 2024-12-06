@@ -44,4 +44,35 @@ main {
 
 }
 
-.ultimo-conteudo-adc
+footer {
+
+    $tamanhoTela: 12;
+    @include display-flex(row, center);
+    margin-top: 50px;
+    background-color: $cor-primaria;
+    height: 100px;
+
+    @for $i from 1 through $tamanhoTela {
+        .col-#{$i} {
+            width: calc(100% / $tamanhoTela) * $i;
+        }
+    }
+
+    div {
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h3 {
+        color: pink
+    }
+}
